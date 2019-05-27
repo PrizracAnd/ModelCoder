@@ -58,10 +58,10 @@ class TClass(object):
                 n = i
         return n
 
-    def getTypesNumber(self, type):
+    def getTypesNumber(self, typ: object) -> object:
         n = -1
         for i, v in enumerate(self.types):
-            if v == type:
+            if v == typ:
                 n = i
         return n
 
